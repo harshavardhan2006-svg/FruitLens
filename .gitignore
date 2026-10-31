@@ -1,0 +1,57 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyo
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Streamlit temporary data
+.streamlit/secrets.toml
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.doc
+~$*.pptx
+~$*.xlsx
+
+# Environment & Secret files
+.env
+.env.*
+
+# Logs, testing & profiling
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary data, extraction & zip downloads
+fruit_data/
+project_outputs.zip
+Food_Freshness_Detection_Complete/
+FruitLens-main/
+*.tmp
+*.temp
